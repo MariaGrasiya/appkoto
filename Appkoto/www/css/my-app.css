@@ -1,12 +1,12 @@
 img{
-    height: 200px; 
-    width: 150px;
+    height: 50px; 
+    width: 50px;
     margin-left: 100px;
     margin-right: 20px;
 }
 .sizer{
-    height: 600px;
-    width: 600px;
+    height: 50px;
+    width: 50px;
 }
 
 .body{
@@ -131,14 +131,14 @@ span{
 }
 
 li{
-    font-size: 50px;
+    font-size: 20px;
 }
 
 b{
-    font-size: 40px;
+    font-size: 30px;
 }
 .line1{
-    font-size: 100px;
+    font-size: 50px;
 }
 
 button{
