@@ -1,7 +1,7 @@
 img{
     height: 50px; 
     width: 50px;
-    margin-left: 100px;
+    
     margin-right: 20px;
 }
 .sizer{
@@ -138,14 +138,24 @@ b{
     font-size: 15px;
 }
 .line1{
+<<<<<<< HEAD
     font-size: 60px;
+=======
+    font-size: 30px;
+>>>>>>> 08c33eeb6fc0cc1e10a75e1d670815a8ce64e77e
 }
 
 button{
 
+<<<<<<< HEAD
     height: 70px;
     width: 80px;
     font-size: 30px;
+=======
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+>>>>>>> 08c33eeb6fc0cc1e10a75e1d670815a8ce64e77e
 }
 body{
     overflow-wrap: all;
