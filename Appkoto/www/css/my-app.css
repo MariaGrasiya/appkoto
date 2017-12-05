@@ -5,7 +5,7 @@ img{
     margin-right: 20px;
 }
 .sizer{
-    height: 120px;
+    height: 150px;
     width: 120px;
 }
 
@@ -131,7 +131,7 @@ span{
 }
 
 li{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 b{
@@ -139,9 +139,9 @@ b{
 }
 .line1{
 <<<<<<< HEAD
-    font-size: 60px;
+    font-size: 70px;
 =======
-    font-size: 30px;
+    font-size: 40px;
 >>>>>>> 08c33eeb6fc0cc1e10a75e1d670815a8ce64e77e
 }
 
