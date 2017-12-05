@@ -57,7 +57,7 @@ let p = <div class="b">
             <div><a href="#" onClick={process.parables44}><img src="img/img46.jpg"/><b>Parable of the Four Wives</b></a></div>
             <div><a href="#" onClick={process.parables45}><img src="img/img47.jpg"/><b>Parable of the Boy and the Apple Tree</b></a></div>
             <div><a href="#" onClick={process.parables46}><img src="img/img48.jpg"/><b>Parable of the Crystal Ball</b></a></div>
-            <div><a href="#" onClick={process.parables47}><img src="img/img49.jpg"/><b>Parable of the Ant and the Grasshopper</b></a></div>
+            <div><a href="#" onClick={process.parables47}><img src="img/img49.png"/><b>Parable of the Ant and the Grasshopper</b></a></div>
             <div><a href="#" onClick={process.parables48}><img src="img/img50.jpg"/><b>Parable of the Pond of the Milk</b></a></div>
             <div><a href="#" onClick={process.s}></a></div>
         
@@ -89,7 +89,7 @@ let p = <div class="b">
         let p = 
             <div>
                 <center>
-                    <img src="img/img2.jpg" class="img"/><br/><br/>
+                    <img src="img/img2.jpg" className="sizer"/><br/><br/>
                     <b class="n">Story of the Lost Coin</b>
                 </center>
                 <div class="div">
@@ -110,7 +110,7 @@ let p = <div class="b">
     parables3:function(){
         let p = 
 <div>
-        <center><img src="img/img3.jpg" class="img"/><br/><br/>
+        <center><img src="img/img3.jpg" className="sizer"/><br/><br/>
     <b class="n">Parables of Determination</b></center>
 <div class="div">
     <ul>
@@ -130,7 +130,7 @@ The young man sat in confused silence. Finally, he said,"Abba, I dont understand
     parables4:function(){
         let p = 
 <div>
-<center><img src="img/img6.jpg" class="img"/><br/><br/>
+<center><img src="img/img6.jpg" className="sizer"/><br/><br/>
     <b class="n">The Good Samaritan</b></center>
 <div class="div">
     <ul>
@@ -145,7 +145,7 @@ Jesus told him," Go and do likewise.</li>
     parables5:function(){
         let p = 
 <div>
-            <center><img src="img/img7.jpg" class="img"/><br/><br/>
+            <center><img src="img/img7.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of Lazarus and the Richman</b></center>
 <div class="div">
     <ul>
@@ -157,7 +157,7 @@ Jesus told him," Go and do likewise.</li>
 "No father Abraham," he said,"but  if someonefrom the dead goes to them,they will repent."
 " He said to him," If they do not listen to moses and the prophets, they will not be convinced even if someone rises from the dead."</li>
     </ul>
-    <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">h<a href="#" onClick={process.Start}>Homepage</a></i></div></div></a></center>
+    <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons"><a href="#" onClick={process.Start}>Homepage</a></i></div></div></a></center>
 </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
@@ -165,7 +165,7 @@ Jesus told him," Go and do likewise.</li>
     parables6:function(){
         let p = 
 <div>
-            <center><img src="img/img8.jpg" class="img"/><br/><br/>
+            <center><img src="img/img8.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Rich Fool</b></center>
 <div class="div">
     <ul>
@@ -176,7 +176,7 @@ Jesus told him," Go and do likewise.</li>
 "But God said to him," You fool! This very night your life will be demanded from you. Then who will get what you have prepared for yourself?"
 "This is how it will be with whoever stores up things for themselves but is not rich toward God".</li>
     </ul>
-    <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
+    <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons"><a href="#" onClick={process.Start}>Homepage</a></i></div></div></a></center>
 </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
@@ -184,7 +184,7 @@ Jesus told him," Go and do likewise.</li>
 parables7:function(){
         let p = 
 <div>
-           <center><img src="img/img9.jpg" class="img"/><br/><br/>
+           <center><img src="img/img9.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Sower</b></center>
 <div class="div">
     <ul>
@@ -204,7 +204,7 @@ But blessed are your eyes because they see, and your ears because they hear.For 
     parables8:function(){
         let p = 
 <div>
-           <center><img src="img/img10.jpg" class="img"/><br/><br/>
+           <center><img src="img/img10.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Shrewd Steward</b></center>
 <div class="div">
     <ul>
@@ -223,7 +223,7 @@ But blessed are your eyes because they see, and your ears because they hear.For 
     parables9:function(){
         let p = 
 <div>
-          <center><img src="img/img11.jpg" class="img"/><br/><br/>
+          <center><img src="img/img11.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Great Supper</b></center>
 <div class="div">
     <ul>
@@ -244,7 +244,7 @@ The servant tells the masters of the refusals. The master decides, however, that
     parables10:function(){
         let p = 
 <div>
-          <center><img src="img/img12.jpg" class="img"/><br/><br/>
+          <center><img src="img/img12.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Marriage Feast</b></center>
 <div class="div">
     <ul>
@@ -259,7 +259,7 @@ The servant tells the masters of the refusals. The master decides, however, that
     parables11:function(){
         let p = 
 <div>
-          <center><img src="img/img13.jpg" class="img"/><br/><br/>
+          <center><img src="img/img13.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Two Sons</b></center>
 <div class="div">
     <ul>
@@ -274,7 +274,7 @@ The servant tells the masters of the refusals. The master decides, however, that
     parables12:function(){
         let p = 
 <div>
-          <center><img src="img/img14.jpeg" class="img"/><br/><br/>
+          <center><img src="img/img14.jpeg" className="sizer"/><br/><br/>
         <b class="n">Learn from Mistakes</b></center>
 <div class="div">
     <ul>
@@ -290,7 +290,7 @@ I walk down another street.</li>
     parables13:function(){
         let p = 
 <div>
-           <center><img src="img/img15.jpg" class="img"/><br/><br/>
+           <center><img src="img/img15.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Barren Fig Tree</b></center>
 <div class="div">
     <ul>
@@ -308,7 +308,7 @@ The harvest of ripened friut is the reason the tree is takng up valuable real es
     parables14:function(){
         let p = 
 <div>
-           <center><img src="img/img16.jpg" class="img"/><br/><br/>
+           <center><img src="img/img16.jpg" className="sizer"/><br/><br/>
         <b class="n">The Pencil Parable</b></center>
 <div class="div">
     <ul>
@@ -334,7 +334,7 @@ And Five,On every surface you walked through, you must leave your marked. No mat
     parables15:function(){
         let p = 
 <div>
-           <center><img src="img/img17.jpg" class="img"/><br/><br/>
+           <center><img src="img/img17.jpg" className="sizer"/><br/><br/>
         <b class="n">Friends in the Desert</b></center>
 <div class="div">
     <ul>
@@ -348,7 +348,7 @@ And Five,On every surface you walked through, you must leave your marked. No mat
     parables16:function(){
         let p = 
 <div>
-            <center><img src="img/img18.jpg" class="img"/><br/><br/>
+            <center><img src="img/img18.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Lily</b></center>
 <div class="div">
     <ul>
@@ -362,7 +362,7 @@ And Five,On every surface you walked through, you must leave your marked. No mat
     parables17:function(){
         let p = 
 <div>
-            <center><img src="img/img19.jpg" class="img"/><br/><br/>
+            <center><img src="img/img19.jpg" className="sizer"/><br/><br/>
         <b class="n">The Gift of Friendship</b></center>
 <div class="div">
     <ul>
@@ -379,7 +379,7 @@ And Five,On every surface you walked through, you must leave your marked. No mat
     parables18:function(){
         let p = 
 <div>
-             <center><img src="img/img20.jpg" class="img"/><br/><br/>
+             <center><img src="img/img20.jpg" className="sizer"/><br/><br/>
         <b class="n">Parables of the Lost Sheep</b></center>
 <div class="div">
     <ul>
@@ -393,7 +393,7 @@ And Five,On every surface you walked through, you must leave your marked. No mat
     parables19:function(){
         let p = 
 <div>
-              <center><img src="img/img21.jpg" class="img"/><br/><br/>
+              <center><img src="img/img21.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Rooster</b></center>
 <div class="div">
     <ul>
@@ -415,7 +415,7 @@ That evening, the Lord of all pary of a steaning tinola.</li>
     parables20:function(){
         let p = 
 <div>
-              <center><img src="img/img22.jpg" class="img"/><br/><br/>
+              <center><img src="img/img22.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of Love</b></center>
 <div class="div">
     <ul>
@@ -431,7 +431,7 @@ As if words are too weak to convey his passion, God asked the rave Hosea to act 
     parables21:function(){
         let p = 
 <div>
-              <center><img src="img/img23" class="img"/><br/><br/>
+              <center><img src="img/img23" className="sizer"/><br/><br/>
         <b class="n">Parable of the Mustard Seed</b></center>
 <div class="div">
     <ul>
@@ -445,7 +445,7 @@ As if words are too weak to convey his passion, God asked the rave Hosea to act 
     parables22:function(){
         let p = 
 <div>
-              <center><img src="img/img24.jpg" class="img"/><br/><br/>
+              <center><img src="img/img24.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Tiny Frog</b></center>
 <div class="div">
     <ul>
@@ -475,7 +475,7 @@ It turned out..the winner is a deaf. The wisdom of this story is: Never listen t
     parables23:function(){
         let p = 
 <div>
-              <center><img src="img/img25.jpg" class="img"/><br/><br/>
+              <center><img src="img/img25.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of Talents</b></center>
 <div class="div">
     <ul>
@@ -494,7 +494,7 @@ Then who had recieved the one talent came and said,"Lord, I knew you to be a har
     parables24:function(){
         let p = 
 <div>>
-              <center><img src="img/img26.jpg" class="img"/><br/><br/>
+              <center><img src="img/img26.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Sheep and The Goats</b></center>
 <div class="div">
     <ul>
@@ -515,7 +515,7 @@ He will reply,"Truly I tell you,whatever you did not do for one of the least of 
     parables25:function(){
         let p = 
 <div>
-              <center><img src="img/img27.jpg" class="img"/><br/><br/>
+              <center><img src="img/img27.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Evil Farmer</b></center>
 <div class="div">
     <ul>
@@ -537,7 +537,7 @@ The harvest of ripened friut is the reason the tree is takng up valuable real es
     parables26:function(){
         let p = 
 <div>
-              <center><img src="img/img28.jpg" class="img"/><br/><br/>
+              <center><img src="img/img28.jpg" classname="sizer"/><br/><br/>
         <b class="n">Parable of the Hidden Treasure</b></center>
 <div class="div">
     <ul>
@@ -551,7 +551,7 @@ The harvest of ripened friut is the reason the tree is takng up valuable real es
     parables27:function(){
         let p = 
 <div>
-              <center><img src="img/img29.jpg" class="img"/><br/><br/>
+              <center><img src="img/img29.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Lamp Under the Basket</b></center>
 <div class="div">
     <ul>
@@ -565,7 +565,7 @@ The harvest of ripened friut is the reason the tree is takng up valuable real es
     parables28:function(){
         let p = 
 <div>
-              <center><img src="img/img30.jpg" class="img"/><br/><br/>
+              <center><img src="img/img30.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Leaven</b></center>
 <div class="div">
     <ul>
@@ -583,7 +583,7 @@ I will utter what has been hidden since the foundation of the world</li>
     parables29:function(){
         let p = 
 <div>
-              <center><img src="img/img31.jpg" class="img"/><br/><br/>
+              <center><img src="img/img31.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the King and the Servant</b></center>
 <div class="div">
     <ul>
@@ -603,7 +603,7 @@ Shouldn't you have had mercy on your fellow servant just I as I had on you?" ang
     parables30:function(){
         let p = 
 <div>
-              <center><img src="img/img32.jpg" class="img"/><br/><br/>
+              <center><img src="img/img32.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Ambitious Guest</b></center>
 <div class="div">
     <ul>
@@ -633,7 +633,7 @@ So it will be at the close of the age. The angels will come out and separate the
     parables32:function(){
         let p = 
 <div>
-              <center><img src="img/img34.jpg" class="img"/><br/><br/>
+              <center><img src="img/img34.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Faithful Servant</b></center>
 <div class="div">
     <ul>
@@ -647,7 +647,7 @@ So it will be at the close of the age. The angels will come out and separate the
     parables33:function(){
         let p = 
 <div>
-              <center><img src="img/img35.jpg" class="img"/><br/><br/>
+              <center><img src="img/img35.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Rich Young Ruler</b></center>
 <div class="div">
     <ul>
@@ -695,7 +695,7 @@ These thing i have spoke to you, that my joy maybe in you, and that your joy may
 parables36:function(){
         let p = 
 <div>
-              <center><img src="img/img38.jpg" class="img"/><br/><br/>
+              <center><img src="img/img38.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Wheat and Tares</b></center>
 <div class="div">
     <ul>
@@ -711,7 +711,7 @@ So the servant said to him. Then do you want us to go and gather them? But he sa
 parables37:function(){
         let p = 
 <div>
-              <center><img src="img/img39.jpg" class="img"/><br/><br/>
+              <center><img src="img/img39.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Dishonest</b></center>
 <div class="div">
     <ul>
@@ -730,7 +730,7 @@ No servant can serve two masters , for either he will hate the one and love the 
 parables38:function(){
         let p = 
 <div>
-              <center><img src="img/img40.jpg" class="img"/><br/><br/>
+              <center><img src="img/img40.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Strong Man</b></center>
 <div class="div">
     <ul>
@@ -746,7 +746,7 @@ For God things are possible. Jesus can defeat satan,the strong man ,because he's
 parables39:function(){
         let p = 
 <div>
-              <center><img src="img/img42.jpg" class="img"/><br/><br/>
+              <center><img src="img/img42.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Butterfly and the Cocoon</b></center>
 <div class="div">
     <ul>
@@ -779,7 +779,7 @@ parables40:function(){
 parables41:function(){
         let p = 
 <div>
-              <center><img src="img/img43.jpg" class="img"/><br/><br/>
+              <center><img src="img/img43.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Office Boy</b></center>
 <div class="div">
     <ul>
@@ -800,7 +800,7 @@ The broker replied curiously ," You dont have an email and yet have succeeded to
 parables42:function(){
         let p = 
 <div>
-              <center><img src="img/img44.jpg" class="img"/><br/><br/>
+              <center><img src="img/img44.jpg" className="sizer"/><br/><br/>
         <b class="n">Paid in Full</b></center>
 <div class="div">
     <ul>
@@ -829,7 +829,7 @@ And then he took the pen and in  great big letters he wrote= PAID IN FULL</li>
 parables43:function(){
         let p = 
 <div>
-              <center><img src="img/img45.jpg" class="img"/><br/><br/>
+              <center><img src="img/img45.jpg" className="sizer"/><br/><br/>
         <b class="n">Put the Glass Down</b></center>
 <div class="div">
     <ul>
@@ -856,7 +856,7 @@ Its important to think of the challenges in yoyr life. But even more important i
 parables44:function(){
         let p = 
 <div>
-              <center><img src="img/img46.jpg" class="img"/><br/><br/>
+              <center><img src="img/img46.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Four Wives</b></center>
 <div class="div">
     <ul>
@@ -885,7 +885,7 @@ Actually, we all have four lives in our life. Among the four wives, the fourth w
 parables45:function(){
         let p = 
 <div>
-              <center><img src="img/img47.jpg" class="img"/><br/><br/>
+              <center><img src="img/img47.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Boy and the Apple Tree</b></center>
 <div class="div">
     <ul>
@@ -933,7 +933,7 @@ This is a story of everyone. The tree is like our parents. When we we young, we 
 parables46:function(){
         let p = 
 <div>
-              <center><img src="img/img48.jpg" class="img"/><br/><br/>
+              <center><img src="img/img48.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Crystal Ball</b></center>
 <div class="div">
     <ul>
@@ -949,7 +949,7 @@ He put the crystal ball in a bag and gathered the herd, happily returned back to
 parables47:function(){
         let p = 
 <div class="bg3">
-              <center><img src="img/img49.jpg" class="img"/><br/><br/>
+              <center><img src="img/img49.png" className="sizer"/><br/><br/>
         <b class="n">Parable of the Ant and the Grasshopper</b></center>
 <div class="div">
     <ul>
@@ -975,7 +975,7 @@ Islam teaches us that we should help the less fortunate. But it also teaches us 
 parables48:function(){
         let p = 
 <div>
-              <center><img src="img/img50.jpg" class="img"/><br/><br/>
+              <center><img src="img/img50.jpg" className="sizer"/><br/><br/>
         <b class="n">Parable of the Pond of the Milk</b></center>
 <div class="div">
     <ul>
